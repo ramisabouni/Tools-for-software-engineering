@@ -13,6 +13,7 @@ UPSTREAM_BRANCH="${COURSE_UPSTREAM_BRANCH:-Fall2026}"
 # Do not add student-work to this list.
 MANAGED_PATHS=(
   ".devcontainer"
+  "assignments"
   "datasets"
   "examples"
   "exercises"
