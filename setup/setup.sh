@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Tools for Software Engineering
 # Ubuntu 24.04 / GitHub Codespaces environment installer
 
