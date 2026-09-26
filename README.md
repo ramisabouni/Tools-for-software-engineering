@@ -33,3 +33,7 @@ After the environment opens, run:
 ```bash
 ./setup/verify-course.sh
 ```
+
+```markdown
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ramisabouni/Tools-for-software-engineering?quickstart=1)
+```
