@@ -17,3 +17,19 @@ To verify your environment, run:
 
 ```bash
 ~/course/setup/verify-course.sh
+
+
+If you are using codespaces
+## Open the course workspace
+
+Create your personal repository from this course template. Then open your
+repository in GitHub Codespaces by selecting:
+
+**Code → Codespaces → Create codespace on main**
+
+Use a two-core machine unless the instructor specifies otherwise.
+
+After the environment opens, run:
+
+```bash
+./setup/verify-course.sh
