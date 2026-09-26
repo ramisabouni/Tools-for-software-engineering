@@ -16,7 +16,7 @@ Students can use one of three options to access the course material:
 
 The course environment is automatically configured when you follow these instructions.
 
-## Using Codespaces.
+## Using Codespaces (recommended).
 
 Create your personal repository from this course template. To do so, follow these steps:
 1. Select **Use this template**.
