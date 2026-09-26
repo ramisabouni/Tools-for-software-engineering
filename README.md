@@ -6,28 +6,23 @@ Repository used for "Tools for Software Engineering" text book
 This repository contains the software environment, examples, exercises,
 datasets, and starter projects used in the course.
 
-Students have one of three options to use the course material:
-- Create their own Ubuntu Linux virtual machine
+Students can use one of three options to access the course material:
 - Use codespaces and follow the instructions below.
 - use an Ubuntu Linux workspace provided through Prepare.sh.
+- Create their own Ubuntu Linux on a virtual machine
+
 
 ## Getting Started
 
-The course environment is automatically configured when your Prepare.sh
-workspace is created.
+The course environment is automatically configured when you follow these instructions.
 
-To verify your environment, run:
-
-```bash
-~/course/setup/verify-course.sh
-```
-
-## Open the course workspace (If you are using codespaces)
+## Using Codespaces.
 
 Create your personal repository from this course template. To do so, follow these steps:
 1. Select **Use this template**.
 2. Create a private repository named `EGEN5209-course-work`.
 3. Create the Codespace from that private repository.
+3.a. Optional: Open the codespace in VS-Code.
 4. Wait for automatic setup to finish.
 5. Run `./setup/verify-course.sh` without `sudo`.
 6. Put personal work only under `student-work/`.
@@ -40,7 +35,20 @@ After the environment opens, run:
 ```bash
 ./setup/verify-course.sh
 ```
+## Using preparesh
+If you would like to use prepare.sh to create your own online environment, follow these steps:
 
-```markdown
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ramisabouni/Tools-for-software-engineering?quickstart=1)
-```
+1- Create an account on prepare.sh
+2- Create an environment on Prepare.sh
+3- Clone the course repository to the environment
+4- ```bash Run ./setup/setup.sh ```
+5- ```bash Run ./setup/verify-course.sh ```
+
+## Using your own Ubuntu Linux on a virtual machine
+If you would like to use your own Linux image, follow these steps:
+
+Create a version of Linux on your virtual machine
+
+1- Clone the course repository to the environment
+2- ```bash Run ./setup/setup.sh ```
+3- ```bash Run ./setup/verify-course.sh ```
