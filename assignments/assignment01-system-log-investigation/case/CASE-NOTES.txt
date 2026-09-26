@@ -1,8 +1,0 @@
-CASE: Orion reporting-service incident
-HOST: orion-api-01
-INVESTIGATION WINDOW: 2026-09-18T14:00:00Z through 2026-09-18T14:30:00Z
-REPORTED INDICATOR: 203.0.113.77
-
-All timestamps are expressed in UTC using ISO 8601 format.
-The datasets are synthetic and were created specifically for EGEN 5209.
-The original evidence files must not be edited.
