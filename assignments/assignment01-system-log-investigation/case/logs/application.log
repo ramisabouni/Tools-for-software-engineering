@@ -1,0 +1,24 @@
+2026-09-18T13:58:06Z host=orion-api-01 level=INFO code=APP_START message="worker ready" worker=4
+2026-09-18T14:00:12Z host=orion-api-01 level=INFO code=HEALTH_OK request=req-5001 duration_ms=18
+2026-09-18T14:03:30Z host=orion-api-01 level=INFO code=REPORT_VIEW request=req-5002 user=analyst report=weekly-summary duration_ms=92
+2026-09-18T14:08:21Z host=orion-api-01 level=INFO code=SESSION_LINK session=s-91c2 user=deploy source=203.0.113.77
+2026-09-18T14:10:04Z host=orion-api-01 level=WARN code=CONFIG_READ session=s-91c2 file=/etc/orion/export.conf
+2026-09-18T14:11:38Z host=orion-api-01 level=INFO code=REPORT_VIEW request=req-5003 user=analyst report=inventory duration_ms=106
+2026-09-18T14:14:17Z host=orion-api-01 level=INFO code=EXPORT_REQUEST request=req-7f31 user=deploy report=customer-history rows=248100 session=s-91c2
+2026-09-18T14:14:19Z host=orion-api-01 level=ERROR code=EXPORT_LIMIT request=req-7f31 rows=248100 configured_limit=100000
+2026-09-18T14:15:02Z host=orion-api-01 level=ERROR code=EXPORT_ABORT request=req-7f31 reason=row_limit
+2026-09-18T14:16:14Z host=orion-api-01 level=WARN code=CONFIG_CHANGED user=deploy key=maximum_export_rows old=100000 new=250000 session=s-91c2
+2026-09-18T14:17:43Z host=orion-api-01 level=INFO code=EXPORT_REQUEST request=req-7f32 user=deploy report=customer-history rows=248100 session=s-91c2
+2026-09-18T14:17:46Z host=orion-api-01 level=ERROR code=STORAGE_TIMEOUT request=req-7f32 target=/srv/orion/exports/customer-history.csv
+2026-09-18T14:18:01Z host=orion-api-01 level=ERROR code=EXPORT_RETRY request=req-7f32 attempt=1
+2026-09-18T14:18:44Z host=orion-api-01 level=ERROR code=STORAGE_TIMEOUT request=req-7f32 target=/srv/orion/exports/customer-history.csv
+2026-09-18T14:19:10Z host=orion-api-01 level=ERROR code=EXPORT_RETRY request=req-7f32 attempt=2
+2026-09-18T14:19:52Z host=orion-api-01 level=ERROR code=STORAGE_TIMEOUT request=req-7f32 target=/srv/orion/exports/customer-history.csv
+2026-09-18T14:20:16Z host=orion-api-01 level=ERROR code=EXPORT_ABORT request=req-7f32 reason=retry_limit
+2026-09-18T14:21:07Z host=orion-api-01 level=INFO code=EXPORT_REQUEST request=req-7f33 user=deploy report=account-index rows=84210 session=s-91c2
+2026-09-18T14:21:11Z host=orion-api-01 level=INFO code=EXPORT_COMPLETE request=req-7f33 bytes=18432000 duration_ms=3921
+2026-09-18T14:22:30Z host=orion-api-01 level=WARN code=RATE_HIGH source=203.0.113.77 requests=19 interval_s=60
+2026-09-18T14:23:18Z host=orion-api-01 level=ERROR code=CLIENT_DISCONNECT request=req-7f34 source=203.0.113.77
+2026-09-18T14:25:09Z host=orion-api-01 level=INFO code=CONFIG_RESTORED user=operator key=maximum_export_rows value=100000
+2026-09-18T14:27:33Z host=orion-api-01 level=INFO code=HEALTH_OK request=req-5010 duration_ms=21
+2026-09-18T14:31:42Z host=orion-api-01 level=ERROR code=REPORT_NOT_FOUND request=req-5011 user=analyst report=old-quarter
