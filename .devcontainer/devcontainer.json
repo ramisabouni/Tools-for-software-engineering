@@ -1,42 +1,4 @@
 {
   "name": "Tools For Software Engineering Course Workspace",
-
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": ".."
-  },
-
-  "remoteUser": "codespace",
-
-  "hostRequirements": {
-    "cpus": 2,
-    "memory": "4gb",
-    "storage": "16gb"
-  },
-
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "timonwong.shellcheck",
-        "foxundermoon.shell-format",
-        "ms-python.python",
-        "ms-vscode.cpptools",
-        "eamodio.gitlens",
-        "yzhang.markdown-all-in-one"
-      ],
-      "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash",
-        "files.trimTrailingWhitespace": true,
-        "files.insertFinalNewline": true,
-        "editor.formatOnSave": false
-      }
-    }
-  },
-
-  "postCreateCommand": "bash .devcontainer/post-create.sh",
-
-  "waitFor": "postCreateCommand",
-
-  "shutdownAction": "stopContainer"
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04"
 }
-
