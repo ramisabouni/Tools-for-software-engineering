@@ -22,7 +22,7 @@ Create your personal repository from this course template. To do so, follow thes
 1. Select **Use this template**.
 2. Create a private repository named `EGEN5209-course-work`.
 3. Create the Codespace from that private repository.
-   a. Optional: Open the codespace in VS-Code.
+   - Optional: Open the codespace in VS-Code.
 4. Wait for automatic setup to finish.
 5. Run `./setup/verify-course.sh` without `sudo`.
 6. Put personal work only under `student-work/`.
