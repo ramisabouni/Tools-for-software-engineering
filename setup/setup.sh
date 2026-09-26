@@ -166,4 +166,4 @@ printf '\n%s\n' \
   '  source ~/course-venv/bin/activate' \
   '' \
   'Run verification as your normal user, without sudo:' \
-  '  ./verify-course.sh'
+  '  ./setup/verify-course.sh'
