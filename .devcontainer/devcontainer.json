@@ -12,5 +12,5 @@
     "context": ".."
   },
 
-  "postCreateCommand": "sudo bash ./setup.sh"
+  "postCreateCommand": "sudo bash ./setup/setup.sh"
 }
