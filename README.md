@@ -38,17 +38,17 @@ After the environment opens, run:
 ## Using preparesh
 If you would like to use prepare.sh to create your own online environment, follow these steps:
 
-1- Create an account on prepare.sh
-2- Create an environment on Prepare.sh
-3- Clone the course repository to the environment
-4- ```bash Run ./setup/setup.sh ```
-5- ```bash Run ./setup/verify-course.sh ```
+1. Create an account on prepare.sh
+2. Create an environment on Prepare.sh
+3. Clone the course repository to the environment
+4. ```bash Run ./setup/setup.sh ```
+5. ```bash Run ./setup/verify-course.sh ```
 
 ## Using your own Ubuntu Linux on a virtual machine
 If you would like to use your own Linux image, follow these steps:
 
 Create a version of Linux on your virtual machine
 
-1- Clone the course repository to the environment
-2- ```bash Run ./setup/setup.sh ```
-3- ```bash Run ./setup/verify-course.sh ```
+1. Clone the course repository to the environment
+2. ```bash Run ./setup/setup.sh ```
+3. ```bash Run ./setup/verify-course.sh ```
