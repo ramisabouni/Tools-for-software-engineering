@@ -15,7 +15,7 @@ workspace is created.
 
 To verify your environment, run:
 
-```bash
+``bash
 ~/course/setup/verify-course.sh
 
 
@@ -31,5 +31,5 @@ Use a two-core machine unless the instructor specifies otherwise.
 
 After the environment opens, run:
 
-```bash
+``bash
 ./setup/verify-course.sh
