@@ -1,8 +1,8 @@
 Tools for Software Engineering
 
-Course materials:  ~/course
-Student workspace: ~/work
+Course materials:  ~/Tools-for-software-engineering
+Student workspace: ~/Tools-for-software-engineering/student-work
 Python environment: ~/course-venv
 
-Run ./verify-course.sh from the repository root to verify your environment.
+Run ./setup/verify-course.sh from the repository root to verify your environment.
 Never store passwords, API keys, or private SSH keys in the course repository.
