@@ -1,0 +1,9 @@
+2026-09-18T14:08:24Z edge=orion-edge-02 src=203.0.113.77 method=GET path=/api/session status=200 bytes=244 request=req-6a01 cache=BYPASS
+2026-09-18T14:09:03Z edge=orion-edge-02 src=203.0.113.77 method=GET path=/api/reports status=200 bytes=4812 request=req-6a02 cache=MISS
+2026-09-18T14:12:20Z edge=orion-edge-02 src=203.0.113.77 method=GET path=/api/reports/customer-history status=200 bytes=9204 request=req-6a03 cache=MISS
+2026-09-18T14:14:17Z edge=orion-edge-02 src=203.0.113.77 method=POST path=/api/export/customer-history status=413 bytes=196 request=req-7f31 cache=BYPASS
+2026-09-18T14:17:43Z edge=orion-edge-02 src=203.0.113.77 method=POST path=/api/export/customer-history status=504 bytes=212 request=req-7f32 cache=BYPASS
+2026-09-18T14:21:07Z edge=orion-edge-02 src=203.0.113.77 method=POST path=/api/export/account-index status=200 bytes=18432000 request=req-7f33 cache=BYPASS
+2026-09-18T14:22:02Z edge=orion-edge-02 src=203.0.113.77 method=GET path=/api/users status=403 bytes=122 request=req-6a07 cache=BYPASS
+2026-09-18T14:22:15Z edge=orion-edge-02 src=203.0.113.77 method=GET path=/api/config status=403 bytes=122 request=req-6a08 cache=BYPASS
+2026-09-18T14:23:18Z edge=orion-edge-02 src=203.0.113.77 method=GET path=/api/export/account-index status=499 bytes=1048576 request=req-7f34 cache=BYPASS
