@@ -1,0 +1,14 @@
+digraph telemetry_analyzer {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2F8"];
+  csv [label="Synthetic CSV data"];
+  analyzer [label="C telemetry analyzer"];
+  shell [label="Shell/Awk analysis"];
+  plot [label="Python plot"];
+  tests [label="Automated tests"];
+  reports [label="Reports and artifacts", shape=folder, fillcolor="#FCF3CF"];
+  csv -> analyzer -> reports;
+  csv -> shell -> reports;
+  csv -> plot -> reports;
+  analyzer -> tests;
+}
