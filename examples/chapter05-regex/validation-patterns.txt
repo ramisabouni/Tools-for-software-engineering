@@ -1,0 +1,3 @@
+identifier: ^[[:alpha:]_][[:alnum:]_]*$
+course ticket: ^EGEN-[0-9]{3,5}$
+IPv4 shape: ^([0-9]{1,3}\.){3}[0-9]{1,3}$
