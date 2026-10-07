@@ -1,0 +1,5 @@
+student01:active:engineering
+student02:inactive:quality
+student03:active:operations
+student04:active:engineering
+student05:inactive:operations

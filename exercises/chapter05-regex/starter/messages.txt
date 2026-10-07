@@ -1,0 +1,7 @@
+INFO: service started
+WARNING: disk usage reached 82%
+ERROR: unable to open configuration file
+INFO: retry completed
+TODO: replace temporary parser
+Ticket EGEN-104 is ready for review
+Contact support@example.test for the simulated exercise

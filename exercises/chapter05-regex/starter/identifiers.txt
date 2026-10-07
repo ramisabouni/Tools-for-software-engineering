@@ -1,0 +1,7 @@
+valid_name
+also_valid_2
+2invalid
+contains-dash
+camelCase
+UPPER_CASE
+space included
