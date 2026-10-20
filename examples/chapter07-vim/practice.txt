@@ -1,0 +1,3 @@
+Edit this line.
+Duplicate this paragraph, then change one word.
+Search for TARGET and replace it. TARGET appears twice.

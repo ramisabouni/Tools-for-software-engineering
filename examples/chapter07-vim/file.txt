@@ -1,0 +1,2 @@
+TARGET is a disposable search term.
+This file is intended for vim -Nu NONE -n file.txt.

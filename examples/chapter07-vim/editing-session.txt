@@ -1,0 +1,6 @@
+Open: vim practice.txt
+Insert: i
+Save: :write
+Quit: :quit
+Search: /pattern
+Replace: :%s/old/new/gc
