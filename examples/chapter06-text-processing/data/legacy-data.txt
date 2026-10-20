@@ -1,0 +1,2 @@
+2026-02-10 service=api severity=SEVERE   
+2026-02-10 service=cache severity=WARN

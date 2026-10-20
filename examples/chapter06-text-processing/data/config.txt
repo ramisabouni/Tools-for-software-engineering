@@ -1,0 +1,2 @@
+primary=old.example
+backup=old.example

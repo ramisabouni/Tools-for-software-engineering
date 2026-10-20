@@ -1,0 +1,2 @@
+2026-02-10T09:00:01Z user=alice@example.test ip=192.0.2.10 result=success
+2026-02-10T09:04:31Z user=bob@example.test ip=198.51.100.22 result=failure

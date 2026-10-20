@@ -1,0 +1,2 @@
+binary=/opt/old-app/bin/server
+log=/opt/old-app/var/service.log

@@ -1,0 +1,6 @@
+Introduction
+BEGIN SECTION
+first selected line
+second selected line
+END SECTION
+Conclusion

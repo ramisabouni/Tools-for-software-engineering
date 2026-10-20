@@ -1,0 +1,5 @@
+# Synthetic application settings
+host=old.example
+
+port=8080
+mode=training

@@ -1,0 +1,2 @@
+api       12     requests
+cache   4        misses
