@@ -1,0 +1,5 @@
+alpha=10
+beta=20
+gamma=30
+STOP: malformed record
+delta=40

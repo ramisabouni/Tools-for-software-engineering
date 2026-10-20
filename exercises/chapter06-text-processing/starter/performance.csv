@@ -1,0 +1,9 @@
+service,implementation,duration_ms
+api,A,41.2
+api,B,35.8
+cache,A,0
+cache,B,18.4
+database,A,155.0
+database,B,121.7
+worker,A,
+scheduler,C,not-a-number
