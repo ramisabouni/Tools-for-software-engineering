@@ -1,0 +1,51 @@
+# Complete every entry.
+
+## Timestamp
+Dialect:
+Pattern:
+Accepted example:
+Rejected example:
+Limitation:
+
+## Simplified IPv4 address
+Dialect:
+Pattern:
+Accepted example:
+Rejected example:
+Limitation:
+
+## Service name
+Dialect:
+Pattern:
+Accepted example:
+Rejected example:
+Limitation:
+
+## HTTP status
+Dialect:
+Pattern:
+Accepted example:
+Rejected example:
+Limitation:
+
+## Request identifier
+Dialect:
+Pattern:
+Accepted example:
+Rejected example:
+Limitation:
+
+## Severity
+Dialect:
+Pattern:
+Accepted example:
+Rejected example:
+Limitation:
+
+## Configuration assignment
+Dialect:
+Pattern:
+Accepted example:
+Rejected example:
+Limitation:
+

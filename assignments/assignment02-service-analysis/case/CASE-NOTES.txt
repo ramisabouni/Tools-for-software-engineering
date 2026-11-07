@@ -1,0 +1,6 @@
+Synthetic evidence for EGEN 5209 Assignment 02.
+Investigation window: 2026-10-20T14:00:00Z through 2026-10-20T14:30:00Z inclusive.
+The application log contract is documented in the assignment README.
+One malformed application record is intentional.
+All names, addresses, services, and events are fictional course data.
+

@@ -1,0 +1,8 @@
+Counting unit:
+Delimiter or field-position contract:
+Commands:
+Result:
+Corresponding Awk result:
+Comparison:
+Explanation of any difference:
+

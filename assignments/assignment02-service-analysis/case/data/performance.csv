@@ -1,0 +1,7 @@
+sample,service,metric,value
+1,api,latency_ms,32
+2,auth,latency_ms,81
+3,reports,latency_ms,950
+4,reports,latency_ms,invalid
+5,reports,latency_ms,640
+
