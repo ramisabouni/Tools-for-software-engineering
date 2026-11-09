@@ -1,0 +1,10 @@
+scenario	target	address	resolution	transport	tls	http_status	content_type	body
+success	health.example.invalid	192.0.2.10	ok	ok	ok	200	application/json	ok.json
+resolution	missing.example.invalid	-	fail	-	-	-	-	-
+refusal	refused.example.invalid	192.0.2.20	ok	refused	-	-	-	-
+timeout	timeout.example.invalid	192.0.2.21	ok	timeout	-	-	-	-
+tls	wrong-name.example.invalid	192.0.2.30	ok	ok	fail	-	-	-
+http	health.example.invalid	192.0.2.10	ok	ok	ok	503	application/json	error.json
+malformed	health.example.invalid	192.0.2.10	ok	ok	ok	200	application/json	malformed.json
+missing-field	health.example.invalid	192.0.2.10	ok	ok	ok	200	application/json	missing-field.json
+stale	health.example.invalid	192.0.2.10	ok	ok	ok	200	application/json	stale.json

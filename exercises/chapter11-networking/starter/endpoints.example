@@ -1,0 +1,6 @@
+# Copy to endpoints.local and insert only instructor-authorized values.
+HTTPS_URL=https://health.example.invalid/status
+SSH_ALIAS=course-server
+EXPECTED_HEALTH=ok
+CONNECT_TIMEOUT=5
+TOTAL_TIMEOUT=15

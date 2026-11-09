@@ -1,0 +1,3 @@
+# Example resolution; review and regenerate for the supported platform.
+numpy==2.2.0
+pandas==2.2.3

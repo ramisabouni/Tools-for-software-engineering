@@ -1,0 +1,10 @@
+Host course-server
+    HostName CHANGE-ME.example.invalid
+    User CHANGE-ME
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes
+    ForwardAgent no
+    StrictHostKeyChecking yes
+    ServerAliveInterval 30
+    ServerAliveCountMax 2

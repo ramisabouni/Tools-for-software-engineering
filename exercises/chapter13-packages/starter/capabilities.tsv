@@ -1,0 +1,5 @@
+name	command	minimum_version	maximum_exclusive	probe_argument	expected_provider_fragment
+Python	python3	3.10	4.0	--version	
+Git	git	2.30	3.0	--version	
+Make	make	4.0	5.0	--version	
+Graphviz	dot	2.40	20.0	-V	
