@@ -1,0 +1,4 @@
+classification=tls
+target=wrong-name.example.invalid
+selected_address=192.0.2.30
+detail=peer name validation failed

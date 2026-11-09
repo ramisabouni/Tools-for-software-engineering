@@ -1,0 +1,5 @@
+# Example tested resolution for instruction; regenerate and review for the supported platform.
+matplotlib==3.10.0
+numpy==2.2.0
+pandas==2.2.3
+requests==2.32.3

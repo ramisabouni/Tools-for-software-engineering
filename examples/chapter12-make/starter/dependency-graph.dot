@@ -1,0 +1,8 @@
+digraph build {
+  graph [rankdir=BT, label="TODO: complete dependency graph", labelloc=t];
+  node [shape=box];
+  // Maintained inputs: src/*.c, include/converter.h,
+  // src/converter_internal.h, tests/test_converter.c.
+  // Generated nodes: mode-specific .o/.d files, converter, test_converter.
+  // TODO: add direct edges and distinguish test execution as a phony action.
+}

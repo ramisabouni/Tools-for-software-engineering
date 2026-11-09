@@ -1,0 +1,6 @@
+classification=ok
+target=health.example.invalid
+selected_address=192.0.2.10
+http_status=200
+content_type=application/json
+body_file=success.json

@@ -1,0 +1,6 @@
+classification=http
+target=health.example.invalid
+selected_address=192.0.2.10
+http_status=503
+content_type=application/json
+detail=unexpected HTTP status

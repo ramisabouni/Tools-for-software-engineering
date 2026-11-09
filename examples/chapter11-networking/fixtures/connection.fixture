@@ -1,0 +1,4 @@
+classification=connection
+target=refused.example.invalid
+selected_address=192.0.2.20
+detail=connection refused
