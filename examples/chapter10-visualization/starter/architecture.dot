@@ -1,0 +1,6 @@
+digraph architecture {
+  graph [rankdir=LR, label="TODO: architecture question", labelloc=t];
+  node [shape=box, style=rounded];
+  // Required components: cli, service, parser, storage, model, reporter.
+  // TODO: add documented clusters, labels, and dependency edges.
+}

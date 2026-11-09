@@ -1,0 +1,7 @@
+digraph lifecycle {
+  graph [rankdir=LR, label="TODO: job lifecycle", labelloc=t];
+  node [shape=circle];
+  start [shape=point];
+  // Required states: queued, running, retry_wait, succeeded, failed,
+  // cancelled, and timed_out. TODO: add events, guard, and transitions.
+}

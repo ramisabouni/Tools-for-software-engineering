@@ -1,0 +1,20 @@
+digraph lifecycle {
+  graph [rankdir=LR, label="Benchmark job lifecycle", labelloc=t];
+  node [shape=circle];
+  start [shape=point];
+  queued; running; retry_wait [label="retry wait"];
+  succeeded [shape=doublecircle];
+  failed [shape=doublecircle];
+  cancelled [shape=doublecircle];
+  timed_out [shape=doublecircle, label="timed out"];
+
+  start -> queued;
+  queued -> running [label="worker available"];
+  queued -> cancelled [label="cancel"];
+  running -> succeeded [label="complete"];
+  running -> retry_wait [label="transient failure [attempts < 3]"];
+  retry_wait -> queued [label="backoff elapsed"];
+  running -> failed [label="permanent failure"];
+  running -> timed_out [label="deadline"];
+  running -> cancelled [label="cancel"];
+}

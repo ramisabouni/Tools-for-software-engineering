@@ -1,0 +1,28 @@
+digraph architecture {
+  graph [rankdir=LR, label="Validated benchmark reporting architecture", labelloc=t];
+  node [shape=box, style="rounded,filled", fillcolor=white];
+  edge [color="#444444"];
+
+  subgraph cluster_interface {
+    label="Interface"; color="#7A9CC6";
+    cli [label="Command-line interface"];
+  }
+  subgraph cluster_analysis {
+    label="Analysis"; color="#72A276";
+    loader [label="CSV loader"];
+    validator [label="Schema validator"];
+    summarizer [label="Summary calculator"];
+  }
+  subgraph cluster_output {
+    label="Evidence"; color="#C78C4D";
+    renderer [label="Figure renderer"];
+    manifest [label="Provenance manifest"];
+  }
+
+  cli -> loader [label="raw path"];
+  loader -> validator [label="records"];
+  validator -> summarizer [label="accepted rows"];
+  validator -> manifest [label="rejections"];
+  summarizer -> renderer [label="analysis table"];
+  renderer -> manifest [label="artifact digests"];
+}
