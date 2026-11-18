@@ -1,0 +1,9 @@
+# Generated analyzer executable
+build/
+
+# Object files
+*.o
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
