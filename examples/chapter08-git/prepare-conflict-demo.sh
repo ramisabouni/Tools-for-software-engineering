@@ -12,7 +12,7 @@ cp -R "$script_dir/sample-project" "$target"
 git -C "$target" init -q -b main
 git -C "$target" config user.name 'Chapter 08 Demo'
 git -C "$target" config user.email 'chapter08@example.invalid'
-git -C "$target" add .gitignore Makefile README.md src tests
+git -C "$target" add -A
 git -C "$target" commit -q -m 'Establish tested analyzer baseline'
 
 git -C "$target" switch -q -c feature/reject-empty
